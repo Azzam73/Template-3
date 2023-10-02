@@ -211,6 +211,7 @@ a{
 }
 .header .mega-menu .image img{
     max-width: 100%;
+    width:300px ;
 }
 @media (max-width:991px) {
     .header .mega-menu .image{
@@ -825,6 +826,11 @@ a{
 .work-steps .container .info{
     flex: 1;
     margin-left: 40px;
+}
+@media(max-width:767px) {
+    .work-steps .info{
+        magin:auto;
+    }
 }
 .work-steps .info .box{
     display: flex;
